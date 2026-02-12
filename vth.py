@@ -1512,3 +1512,5 @@ def main():
         except KeyboardInterrupt:
             console.print("[yellow]Thoát bằng người dùng.[/]")
             poller.stop()
+if __name__ == "__main__":
+    main()
